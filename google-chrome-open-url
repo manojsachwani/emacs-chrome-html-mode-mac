@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+# Name this file "google-chrome-open-url"
+from subprocess import call
+import sys
+call(['/usr/bin/open', '-a', "/Applications/Google Chrome.app", sys.argv[1]])
